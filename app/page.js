@@ -8,6 +8,8 @@ import Spline from '@splinetool/react-spline'
 import TestimonialSlider from './Home/Components/Testimonials'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image'
+
 
 const Home = () => {
   return (
@@ -57,11 +59,13 @@ const Home = () => {
               Manage stock levels, reduce wastage, and boost efficiency with our real-time inventory tracking system.
             </p>
           </div>
-          <img 
-            className="shadow-lg h-200 mr-10 ml-20 object-cover rounded-4xl hover:scale-105 transition duration-1000 ease-in-out"
-            src="/invent.png" 
-            alt="Inventory Dashboard"
-          />
+       <Image 
+  className="shadow-lg h-200 mr-10 ml-20 object-cover rounded-4xl hover:scale-105 transition duration-1000 ease-in-out"
+  src="/invent.png"
+  alt="Inventory Dashboard"
+  width={600}
+  height={400}
+/>
         </motion.div>
 
         <motion.div 
@@ -96,11 +100,13 @@ const Home = () => {
           transition={{ duration: 0.5, ease: "easeOut", bounce: 0.4 }}  
           className='flex flex-col md:flex-row bg-gradient-to-r from-indigo-800 to-blue-400 w-full min-h-screen justify-center items-center'
         >
-          <img 
-            className='shadow-lg h-130 mr-20 object-cover rounded-4xl hover:scale-105 transition duration-1000 ease-in-out'   
-            src="/data.jpeg"  
-            alt="Warehouse system"
-          />
+        <Image 
+  className='shadow-lg h-130 mr-20 object-cover rounded-4xl hover:scale-105 transition duration-1000 ease-in-out'
+  src="/data.jpeg"
+  alt="Warehouse system"
+  width={500}
+  height={350}
+/>
           <div>
             <h1 className='text-6xl font-bold mb-10 text-white'>HOW IT WORKS</h1>
             <ol className='flex flex-col gap-5 text-2xl list-decimal text-white'>

@@ -9,7 +9,7 @@ export default function AboutPage() {
         <p className="mb-6 text-lg">
           <strong>ProdManager</strong> is a smart and simple Inventory Management System
           designed to help businesses manage, track, and organize their product stock
-          with ease. Whether you're a small retailer or a growing warehouse operation,
+          with ease. Whether you&apos;re a small retailer or a growing warehouse operation,
           our platform gives you the tools to stay in control and make smarter
           decisions.
         </p>
@@ -32,7 +32,7 @@ export default function AboutPage() {
         <ul className="list-disc pl-6 space-y-3 mb-6 text-sm">
           <li>All data entered into our system is the responsibility of the user. We do not take liability for inaccurate or outdated inventory records.</li>
           <li>Users are not allowed to misuse, redistribute, or reverse-engineer the software or its components.</li>
-          <li>System access is provided on an "as-is" basis without warranties. Users should regularly backup critical data.</li>
+          <li>System access is provided on an &quot;as-is&quot; basis without warranties. Users should regularly backup critical data.</li>
           <li>We reserve the right to suspend accounts for suspicious or malicious activity without prior notice.</li>
           <li>By using our system, you agree to these terms and acknowledge our privacy and security policies.</li>
         </ul>
