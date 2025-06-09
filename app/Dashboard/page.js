@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import { FaBoxes, FaExclamationTriangle, FaChartBar, FaListAlt, FaDollarSign } from 'react-icons/fa'
+import { FaBoxes, FaExclamationTriangle, FaChartBar } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import Chart from '../Home/Components/Chart' // We'll create this separately
 import ProductTable from '../Home/Components/ProductTable' // Product list

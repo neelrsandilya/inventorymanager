@@ -2,8 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faHeart, faHome, faMagnifyingGlass, faMoneyBill, faStar } from '@fortawesome/free-solid-svg-icons'
+
 import { useForm } from 'react-hook-form'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
